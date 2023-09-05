@@ -1,0 +1,126 @@
+/* CSS for boxes */
+.course,
+.assessment,
+.feature {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.course h3,
+.assessment h3,
+.feature h3 {
+    margin-top: 0;
+}
+
+/* CSS for columns */
+.features {
+    display: relative;
+    margin: 20px;
+    justify-items: normal;
+    flex-wrap: wrap;
+}
+
+.feature {
+    flex-basis: 30%;
+    padding-top: 30px;
+    border: 1px solid black;
+    background-color: rgb(246, 247, 248);
+    margin-bottom: 20px;
+}
+
+/* CSS for rows */
+.course,
+.assessment {
+    display: inline-block;
+    height: max-content;
+    width: max-content;
+    padding: 30px;
+    margin: 30px;
+    flex-direction: column;
+    /* align-items: center; */
+    text-align: center;
+}
+
+.course p,
+.assessment p {
+    flex-grow: 1;
+    margin-bottom: 10px;
+}
+
+/* CSS for buttons */
+.btn {
+    display: inline-block;
+    background-color: #f77141;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #f33b4a;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 0px;
+}
+
+#uploadform {
+    display: inline-block;
+    flex-direction: column;
+}
+
+/* About page css */
+img {
+    margin: 0px;
+    padding: 0px;
+    height: 600px;
+    width: 800px;
+}
+
+.about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.about .image {
+    height: 600px;
+    width: 700px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 40rem;
+    flex: 1 1 40rem;
+}
+
+.about .content {
+    width: 45rem;
+}
+
+.about .content h3 {
+    padding-top: 2rem;
+    font-size: 2.4rem;
+    color: #263238;
+}
+
+.about .content p {
+    padding: 1.5rem 0;
+    line-height: 2;
+    font-size: 1.4rem;
+    color: #777;
+}
