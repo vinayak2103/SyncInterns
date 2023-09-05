@@ -1,0 +1,98 @@
+.assessment {
+    border: 0.1px solid #3e3737;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: rgb(245, 242, 242);
+}
+
+.assessment h3 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.assessment p {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.assessment .btn {
+    display: inline-block;
+    background-color: #e2634f;
+    color: #fff;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.assessment .btn:hover {
+    background-color: #cc1212;
+}
+
+/* Style for the main container */
+main {
+    display: block;
+    height: 475px;
+}
+
+.assessment {
+    display: inline-block;
+    height: 100px;
+    width: 325px;
+    padding: 40px;
+    margin: 30px;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .assessment {
+        width: calc(50% - 20px);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .assessment {
+        width: 100%;
+    }
+}
+
+/* contact css */
+.contact{
+    display: inline-block;
+    width: 205px;
+    padding: 40px;
+    text-decoration: black;
+    margin: 15px;
+    flex-direction: row;
+}
+form label {
+    display: inline-flex;
+    height: 30px;
+    width: 205px;
+    padding: 8px;
+}
+input{
+    width: 250px;
+}
+textarea{
+    width: 250px;
+    height: 20px;
+}
+.contact .btn{
+    display: inline-block;
+    width: 100px;
+    margin-top: 10px;
+    background-color: #e2634f;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+.contact .btn:hover{
+    background-color: #cc1212;
+}
